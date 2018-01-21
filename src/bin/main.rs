@@ -1,6 +1,6 @@
 extern crate fem203;
 
-use fem203::*;
+use fem203::utils::*;
 
 fn main() {
     println!("Gausian values ftw");

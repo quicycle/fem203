@@ -1,5 +1,5 @@
-chain_indent = "Visual"
-chain_one_line_max = 10
+chain_indent = "Block"
+chain_one_line_max = 40
 reorder_imports = true
 reorder_imports_in_group = true
 reorder_imported_names = true
