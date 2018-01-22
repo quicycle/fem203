@@ -1,0 +1,26 @@
+{
+    "title": "title for the visualisation",
+    "grid-size": 100,
+    "n-steps": 2000,
+    "epsilon-r": 1,
+    "mu-r": 1,
+    "devices": [
+        {
+            "start": 0,
+            "stop": 0,
+            "er": 0.7,
+            "mr": 0.7
+        },
+        ...
+    ],
+    "fields": {
+        "E": {
+            "Ey": [[...], ...],
+            ...
+        },
+        "B": {
+            "Bx": [[...], ...],
+            ...
+        }
+    }
+}
