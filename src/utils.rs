@@ -15,10 +15,10 @@ impl NTuple {
     /// Returns the dimentionality of this NTuple.
     pub fn get_dims(&self) -> u8 {
         match *self {
-            NTuple::X(_) => 1,
-            NTuple::XY(_, _) => 2,
-            NTuple::XYZ(_, _, _) => 3,
-            NTuple::TXYZ(_, _, _, _) => 4,
+            NTuple::X(..) => 1,
+            NTuple::XY(..) => 2,
+            NTuple::XYZ(..) => 3,
+            NTuple::TXYZ(..) => 4,
         }
     }
 

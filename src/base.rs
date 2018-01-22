@@ -152,8 +152,8 @@ impl FEMBase {
         let source_duration = 0.5 / self.source_f_max;
         let source_time_offset = 5.0 * source_duration;
 
-        // // NOTE:: This is an arbitrary choice of the source pulse duration
-        // //        and two passes over the grid.
+        // NOTE:: This is an arbitrary choice of the source pulse duration
+        //        and two passes over the grid.
         let simulation_time = 2.0 * source_time_offset + 2.0 * self.source_travel_time;
 
         let n_steps = (simulation_time / self.dt).ceil() as u8;
